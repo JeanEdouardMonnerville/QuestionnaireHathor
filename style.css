@@ -1,0 +1,78 @@
+body{
+    margin: 0em;
+    padding: 0em;
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-color: #000080;
+}
+img{
+    width: 150px;
+	height: 150px;
+}
+h1{
+    background:  #008080;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2{
+    text-transform: uppercase;
+    text-decoration:bold ;
+    color: #FFFFFF;
+    margin-left: 2%;
+    padding-top: 20px;
+}
+
+#description{
+    text-align: center;
+    font-weight: bold;
+}
+
+legend{
+    text-align: center;
+    font-weight: 900;
+}
+
+fieldset{
+    background-color: #000080;
+    border-color: #804000;
+    border-width: 5px;
+    margin-top: 10px;
+}
+
+fieldset:hover{
+    background-color: #004080;
+}
+
+input[type=radio]{
+    text-align: center;
+    position: relative;
+}
+
+form{
+    text-align: center;
+    padding:20px;
+}
+
+#Valider{
+    background-color: #804000;
+    color: #FFFFFF;
+    margin-top: 20px;
+    border-radius:20em;
+    -webkit-border-radius:20em;
+    -moz-border-radius:20em;
+    -ms-border-radius:20em;
+    -o-border-radius:20em;
+}
+
+#Valider:hover{
+background-color: #4D2700;
+}
+
+.message{
+    position: relative;
+    text-align: center;
+    background-color: #004080;
+    font-size: 5em;
+    font-weight: bold;
+}

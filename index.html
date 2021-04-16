@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questionnaire du groupe Hathor</title>
+    <link rel="shortcut icon" type="image/x-icon" href="Hathor-Logo.ico" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body >
+    <h1 id="titre">Bienvenue dans le questionnaire Hathor</h1>
+    <h2>Description:</h2>
+    <p id="description">Dans ce questionnaire, il y a des questions ayant des enjeux sociaux, économiques et écologiques.
+        Réfléchis bien, car toutes tes décisions impliquent des conséquences. Pour chaque questions, ta réponse va te donner des points de -1 à 3
+    écolo,socio ou écono.Amuses-toi bien! </p>
+    <h2>Questions:</h2>
+   
+    <form action="Post" id="HathorTest">
+        <fieldset>
+            <legend>Question 1 : Les pommes</legend>
+            <p> Tu as besoin de pommes :</p>
+            <input class="A" type="radio" name="Choix" id="a1">
+            <label for=""> a. Tu achètes au marché</label>
+            <input class="B" type="radio" name="Choix" id="b1">
+            <label for=""> b. Tu achètes au super U </label>
+            <input class="C" type="radio" name="Choix" id="c1">
+            <label for=""> c. Tu plantes ton pommier</label>
+        </fieldset>
+        <fieldset>
+            <legend>Question 2 : Primark</legend>
+            <p> Patron de Primark, tu as 100 euros pour un projet libre, tu achètes :</p>
+            <input class="A" type="radio" name="Choix2" id="a2">
+            <label for=""> a. Un canapé pour la salle de repos</label>
+            <input class="B" type="radio" name="Choix2" id="b2">
+            <label for=""> b. Un serveur de gestion de ta BDD</label>
+            <input class="C" type="radio" name="Choix2" id="c2">
+            <label for=""> c. Composteur pour recycler les déchets de la cafétéria</label>
+        </fieldset>
+        <fieldset>
+            <legend>Question 3 : Quel échec !</legend>
+            <p> Tu as une employée qui est à l’origine de l’échec d’un projet bien qu’elle ait fait de son mieux :</p>
+            <input class="A" type="radio" name="Choix3" id="a3">
+            <label for=""> a. Tu la vires !</label>
+            <input class="B" type="radio" name="Choix3" id="b3">
+            <label for=""> b. Tu la rétrogrades</label>
+            <input class="C" type="radio" name="Choix3" id="c3">
+            <label for=""> c. Tu lui donnes une nouvelle chance</label>
+        </fieldset>
+        <fieldset>
+            <legend>Question 4 : Un peu de lait</legend>
+            <p> Tu diriges une compagnie de produit laitier et tu découvres que tes produits donnent des indigestions
+                sévères, tu :</p>
+            <input class="A" type="radio" name="Choix4" id="a4">
+            <label for=""> a. Mens sur les bienfaits de tes produits</label>
+            <input class="B" type="radio" name="Choix4" id="b4">
+            <label for=""> b. Arrêtes la production</label>
+            <input class="C" type="radio" name="Choix4" id="c4">
+            <label for=""> c. Modifies tes formules</label>
+        </fieldset>
+        <fieldset>
+            <legend>Question 5 : Petit runner</legend>
+            <p> Tu as 3 employés runner qui se tuent à courir tous les midis et tous les soirs et qui commencent à
+                faire un mental break down, :</p>
+            <input class="A" type="radio" name="Choix5" id="a5">
+            <label for=""> a. Tu achètes un robot Runner et les relocalisent</label>
+            <input class="B" type="radio" name="Choix5" id="b5">
+            <label for=""> b. Tu en upgrades un ou deux</label>
+            <input class="C" type="radio" name="Choix5" id="c5">
+            <label for=""> c. Tu les renouvelles</label>
+        </fieldset>
+        <fieldset>
+            <legend>Question 6 : Grand serveur</legend>
+            <p> Tu as été upgradé de runner à serveur, ton patron te demande de faire plus de bénéfices en incitant à
+                la consommation :</p>
+            <input class="A" type="radio" name="Choix6" id="a6">
+            <label for=""> a. Tu déchires le CA en faisant consommer tes clients plus que jamais</label>
+            <input class="B" type="radio" name="Choix6" id="b6">
+            <label for=""> b. Tu démissionnes</label>
+            <input class="C" type="radio" name="Choix6" id="c6">
+            <label for=""> c. Tu ouvres en parallèle un jardin pour le restaurant donnant des légumes sortis de la terre </label>
+        </fieldset>
+        <fieldset>
+            <legend>Question 7 : Un peu de voile et de web</legend>
+            <p> Tu travailles sur une compétition internationale de voile et tu dois créer un site web de gestion
+                logistique :</p>
+            <input class="A" type="radio" name="Choix7" id="a7">
+            <label for=""> a. Pas de web pour toi, une feuille et un papier !</label>
+            <input class="B" type="radio" name="Choix7" id="b7">
+            <label for=""> b. Tu délègues la tache parce que flemme</label>
+            <input class="C" type="radio" name="Choix7" id="c7">
+            <label for=""> c. Tu crées un site sous standard green-IT</label>
+        </fieldset>
+        <fieldset>
+            <legend>Question 8 : Envoyez moi</legend>
+            <p> Vous devez envoyer une batterie de document à un collègue étranger:</p>
+            <input class="A" type="radio" name="Choix8" id="a8">
+            <label for=""> a. Vous lui envoyez une série de mail avec PJ</label>
+            <input class="B" type="radio" name="Choix8" id="b8">
+            <label for=""> b. Vous lui envoyez une série de courrier à la poste</label>
+            <input class="C" type="radio" name="Choix8" id="c8">
+            <label for=""> c. Vous faites venir votre collègue, les documents sont quand même techniques...</label>
+        </fieldset>
+        <fieldset>
+            <legend>Question 9 : Partiel de GP</legend>
+            <p> 9.	Tu as partiel de Gestion de projet, cependant, la dernière saison de l’attaque des titans est sortie, tu bloques sur les 2 derniers niveaux de Mario Bros et il y a pétanque à 17h tu :</p>
+            <input class="A" type="radio" name="Choix9" id="a9">
+            <label for=""> a. Regardes ta série et finis ton jeu </label>
+            <input class="B" type="radio" name="Choix9" id="b9">
+            <label for=""> b. Tu choisis tes potes mais tu y vas à vélo</label>
+            <input class="C" type="radio" name="Choix9" id="c9">
+            <label for=""> c. Tu choisis ton partiel</label>
+        </fieldset>
+        <input id="Valider" type="submit" value="Valider les entrées">
+
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
